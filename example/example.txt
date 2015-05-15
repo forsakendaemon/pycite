@@ -1,0 +1,37 @@
+.. bib:: example
+.. csl:: apa
+
+=====================================
+PyCite: An extension to citing in RST
+=====================================
+Introduction
+------------
+
+PyCite is a method for extending [ReStructuredText]_ to allow citations to be resolved against a BibTeX database, rather than targets specified in the document itself.
+
+A PyCite document uses three custom directives::
+
+    .. bib:: example.bib
+    .. csl:: apa.csl
+    .. bibliography::
+
+These three directives specify the location of a .bib file, the location of a .csl file, and the location in the document of the bibliography, respectively.
+
+Known issues:
+- Parsing will only proceed if you have at least one citation in the document.
+- Only one citation can be used at a time
+- When using non-PyCite citations, a bibliography and CSL file must still be included.
+
+Now, let's test it out!
+
+Testing
+-------
+
+Small batch seitan shabby chic beard. Yr gastropub Carles kale chips listicle. [Ful83]_ Cray lumbersexual letterpress kitsch semiotics tofu migas vegan +1, irony church-key cornhole chillwave narwhal pug. [GMP81]_ Chillwave tattooed aesthetic PBR, 90's sriracha tousled hella pug. [Pat85]_ Listicle bespoke mlkshk sriracha, actually quinoa locavore deep v vegan. Literally direct trade PBR&B Brooklyn gastropub try-hard. [BMM94]_ Yr YOLO blog, seitan Vice skateboard banjo viral small batch meditation dreamcatcher American Apparel aesthetic taxidermy irony.
+
+YOLO selvage Vice, before they sold out vinyl meh bitters fap cornhole small batch American Apparel pop-up you probably haven't heard of them. [TM83]_ Kogi wolf scenester pour-over. Keytar pickled squid craft beer, fingerstache taxidermy food truck ennui Bushwick Kickstarter sustainable pug. [Alu96]_ Locavore listicle vegan yr cardigan, semiotics wayfarers put a bird on it tattooed synth stumptown narwhal High Life kogi. [Ful83]_ Tattooed tilde jean shorts health goth High Life. Mumblecore Pitchfork health goth, banh mi disrupt food truck Godard normcore craft beer Blue Bottle. Next level stumptown mumblecore plaid bespoke, Truffaut Marfa squid 3 wolf moon Godard cliche 8-bit Intelligentsia biodiesel. [Ver79]_
+
+.. bibliography::
+
+
+.. [RestructuredText] See the Docutils documentation for more information.
