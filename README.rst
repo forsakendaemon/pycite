@@ -25,7 +25,7 @@ Known Issues
 - Only one citation can be used at a time (currently a limitation of docutils, but something I'd like to work on!
 - When using only non-PyCite citations, a bibliography and CSL file must still be included.
 
-PyCite relies on docutils_ and citeproc_, and if you don'd know those projects then you should check them out!
+PyCite relies on docutils_ and citeproc-py_, and if you don'd know those projects then you should check them out!
 
 .. _docutils: http://docutils.sourceforge.net
-.. citeproc: https://github.com/brechtm/citeproc-py/
+.. _citeproc-py: https://github.com/brechtm/citeproc-py/
