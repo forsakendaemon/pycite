@@ -12,9 +12,9 @@ PyCite can be used from the command line as follows::
 It takes as input a ReStructuredText file with an associated BibTeX .bib file and Citation Styles Language .csl file.
 
 PyCite has three directives that will be useful::
-    .. bib:: bibliography
-    .. csl:: apa
-    .. bibliography::
+    \.. bib:: bibliography
+    \.. csl:: apa
+    \.. bibliography::
 
 These directives (shown with their respective defaults) set the bib file name (to bibliography.bib), the csl file name (to apa.csl) and specify the location of the bibliography in the output file, respectively.
 
